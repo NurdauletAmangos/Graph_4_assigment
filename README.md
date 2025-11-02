@@ -32,6 +32,15 @@ Weight model: **edge-based** by default (edge `w`). Node durations are supported
 - pom.xml
 - README.md
 
+## How to build
+
+- **Requires Java 17+ and Maven
+
+## How to run
+
+- 1 **Make sure tasks.json is in the project root (where pom.xml is), or provide a full path.
+- 2 **Run the main app:
+- java -cp target/classes App tasks.json
 
 ## Input format (`tasks.json`)
 A JSON object with:
